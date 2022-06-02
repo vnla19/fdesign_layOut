@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+Ul, li{
+	display: block;
+}
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header{
+	padding: 50px;
+	text-align: center;
+}
+
+.main-subtitle{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+.services{
+	padding: 50px;
+	text-align: center;
+	}
+	
+
+	
+
+.advantages{
+	padding: 50px;
+	text-align: center;
+	display: grid;
+	background: white;
+}
+
+.services-list{
+	display: grid;
+	background: white;
+	max-width: 900px;
+	margin: 0 auto;
+	grid-template-areas: 
+	 					"services-item-1 services-item-4"
+	 					"services-item-2 services-item-5"
+	 					"services-item-3 services-item-6";
+
+}
+
+
+
+.advantages-content{
+	display: grid;
+	background: white;
+	max-width: 900px;
+	margin: 0 auto;
+	grid-template-areas: 
+						"advantages-item-1 iphone advantages-item-4"
+						"advantages-item-2 iphone advantages-item-5"
+						"advantages-item-3 iphone advantages-item-6";
+						
+}
+
+.footer .container{
+	display: flex;
+	justify-content: center;
+}
